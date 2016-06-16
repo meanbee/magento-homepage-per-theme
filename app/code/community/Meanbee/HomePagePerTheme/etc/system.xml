@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <web>
+            <groups>
+                <default>
+                    <fields>
+                        <cms_home_page_per_theme translate="label" module="meanbee_homepagepertheme">
+                            <label>CMS Home Page Per Theme</label>
+                            <comment>Override default homepage in other themes</comment>
+                            <frontend_model>meanbee_homepagepertheme/adminhtml_form_field_themeHomePageMappings</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </cms_home_page_per_theme>
+                    </fields>
+                </default>
+            </groups>
+        </web>
+    </sections>
+</config>
