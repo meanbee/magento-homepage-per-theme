@@ -1,0 +1,9 @@
+{
+    "description": "Meanbee Homepage Per Theme",
+    "name": "meanbee/homepagepertheme",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "type": "magento-module",
+    "version": "dev-master"
+}
